@@ -70,13 +70,14 @@ app.post("/api/events", async (c) => {
   return c.body(null, 204);
 });
 
-app.get("/healthz", (c) =>
-  c.json({
+app.get("/healthz", (c) => {
+  c.header("Cache-Control", "no-store");
+  return c.json({
     healthy: true,
     service: "peta-sheet",
     time: new Date().toISOString(),
-  }),
-);
+  });
+});
 
 app.notFound((c) =>
   c.json(
