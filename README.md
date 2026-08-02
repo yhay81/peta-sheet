@@ -2,7 +2,7 @@
 
 ExcelやCSVの行を、市販A4ラベル用紙へ1枚ずつ実寸配置して印刷する日本語Webツールです。
 
-https://peta-sheet.yusuke8h.workers.dev
+https://peta-sheet.yhay81.com
 
 ## What it does
 

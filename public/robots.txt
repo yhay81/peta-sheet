@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://peta-sheet.yusuke8h.workers.dev/sitemap.xml
+Sitemap: https://peta-sheet.yhay81.com/sitemap.xml
